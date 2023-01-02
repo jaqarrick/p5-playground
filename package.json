@@ -1,0 +1,17 @@
+{
+  "name": "p5-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/p5": "^1.4.3",
+    "parcel": "^2.8.2",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "p5": "^1.5.0"
+  },
+  "scripts": {
+    "start": "parcel -p 1312 src/index.html"
+  }
+}
